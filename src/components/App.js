@@ -1,10 +1,13 @@
 import React from 'react'
-import GetCardDeck from './GetCardDeck'
+import GamePlay from './GamePlay'
 
 const App = () => {
-  console.log(GetCardDeck())
   return (
-    <div>App</div>
+
+    <div>
+      <GamePlay />
+      App
+    </div>
   )
 }
 
